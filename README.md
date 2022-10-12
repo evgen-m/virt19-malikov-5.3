@@ -1,11 +1,11 @@
 # Домашнее задание к занятию "3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера"
 
 
-Задача 1
+# Задача 1
 
 https://hub.docker.com/repository/docker/evgenm/nginx
 
-Задача 2
+# Задача 2
 
 Посмотрите на сценарий ниже и ответьте на вопрос: "Подходит ли в этом сценарии использование Docker контейнеров или лучше подойдет виртуальная машина, физическая машина? Может быть возможны разные варианты?"
 
@@ -47,7 +47,7 @@ https://hub.docker.com/repository/docker/evgenm/nginx
 
 
 
-Задача 3
+# Задача 3
 
 > Запустите первый контейнер из образа centos c любым тэгом в фоновом режиме, подключив папку /data из текущей рабочей директории на хостовой машине в /data контейнера;
 
@@ -74,10 +74,6 @@ root@vagrant:/# docker exec -it centos1 bash
 bin  data  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 
 [root@821686b57027 /]# cd /data
-
-[root@821686b57027 data]# nano file_from_centos.txt
-
-bash: nano: command not found
 
 [root@821686b57027 data]# vi file_from_centos.txt
 
